@@ -10,7 +10,7 @@ spec:
   wait: true
   sourceRef:
     kind: GitRepository
-    name: Flagger-istio
+    name: flux2-sync
     namespace: flux-system
   postBuild:
     substituteFrom:
@@ -31,5 +31,5 @@ spec:
   wait: true
   sourceRef:
     kind: GitRepository
-    name: Flagger-istio
+    name: flux2-sync
     namespace: flux-system
