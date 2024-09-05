@@ -9,7 +9,8 @@ spec:
     - name: istio-system
   sourceRef:
     kind: GitRepository
-    name: flux-system
+    name: Flagger-istio
+    namespace: flux-system
   path: ./apps
   prune: true
   wait: true
